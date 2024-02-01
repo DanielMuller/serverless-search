@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/yamllint.json": "fct.*.yml"
+  }
+}

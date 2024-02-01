@@ -1,0 +1,7 @@
+handler: src/handlers/indexUpdate.handler
+name: ${self:service}-index-update
+memorySize: 5120
+timeout: 900
+environment:
+  BUCKET:
+    Ref: S3BucketSearch

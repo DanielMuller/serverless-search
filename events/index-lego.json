@@ -1,0 +1,12 @@
+{
+    "detail-type": "Object Created",
+    "source": "aws.s3",
+    "detail": {
+        "bucket": {
+            "name": "serverless-search-xxxxxxx-yyyyy"
+        },
+        "object": {
+            "key": "source/lego_sets.csv"
+        }
+    }
+}

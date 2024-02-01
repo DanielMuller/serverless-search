@@ -1,0 +1,5 @@
+{
+    "queryStringParameters": {
+        "search": "+year:1984 +theme:duplo"
+    }
+}

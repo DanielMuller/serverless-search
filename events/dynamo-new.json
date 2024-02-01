@@ -1,0 +1,64 @@
+{
+    "Records": [
+        {
+            "eventName": "INSERT",
+            "dynamodb": {
+                "Keys": {
+                    "set_id": {
+                        "S": "1-8"
+                    }
+                },
+                "NewImage": {
+                    "set_id": {
+                        "S": "1-8"
+                    },
+                    "name": {
+                        "S": "Small house set"
+                    },
+                    "year": {
+                        "S": "1970"
+                    },
+                    "themeGroup": {
+                        "S": "Vintage"
+                    }
+                }
+            }
+        },
+        {
+            "eventName": "INSERT",
+            "dynamodb": {
+                "Keys": {
+                    "set_id": {
+                        "S": "aaaa"
+                    }
+                },
+                "NewImage": {
+                    "set_id": {
+                        "S": "aaaa"
+                    },
+                    "name": {
+                        "S": "test a"
+                    }
+                }
+            }
+        },
+        {
+            "eventName": "INSERT",
+            "dynamodb": {
+                "Keys": {
+                    "set_id": {
+                        "S": "bbbb"
+                    }
+                },
+                "NewImage": {
+                    "set_id": {
+                        "S": "bbbb"
+                    },
+                    "name": {
+                        "S": "test b"
+                    }
+                }
+            }
+        }
+    ]
+}

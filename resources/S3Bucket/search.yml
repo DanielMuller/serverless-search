@@ -1,0 +1,6 @@
+Type: AWS::S3::Bucket
+Properties:
+  BucketName: serverless-search-${aws:accountId}-${aws:region}
+  NotificationConfiguration:
+    EventBridgeConfiguration:
+      EventBridgeEnabled: true

@@ -1,0 +1,8 @@
+handler: src/handlers/searchMovie.handler
+name: ${self:service}-searchMovie
+memorySize: 5120
+timeout: 29
+url: true
+environment:
+  BUCKET:
+    Ref: S3BucketSearch

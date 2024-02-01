@@ -1,0 +1,48 @@
+{
+    "Records": [
+        {
+            "eventName": "MODIFY",
+            "dynamodb": {
+                "Keys": {
+                    "set_id": {
+                        "S": "aaaa"
+                    }
+                },
+                "OldImage": {
+                    "set_id": {
+                        "S": "aaaa"
+                    },
+                    "name": {
+                        "S": "aaaa"
+                    }
+                },
+                "NewImage": {
+                    "set_id": {
+                        "S": "aaaa"
+                    },
+                    "name": {
+                        "S": "modified a"
+                    }
+                }
+            }
+        },
+        {
+            "eventName": "REMOVE",
+            "dynamodb": {
+                "Keys": {
+                    "set_id": {
+                        "S": "bbbb"
+                    }
+                },
+                "OldImage": {
+                    "set_id": {
+                        "S": "bbbb"
+                    },
+                    "name": {
+                        "S": "test b"
+                    }
+                }
+            }
+        }
+    ]
+}
